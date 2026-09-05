@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="HttpClientEndpointsTabState">
+    <option name="requestToText" value="&lt;CachedHttpClientTabRequests&gt;&#10;  &lt;entry key=&quot;3c93ad57cc4329166058656e376209a45ffec1d0&quot; value=&quot;###&amp;#10;POST http://localhost:${PORT:8080}/auth/register/admin&amp;#10;Content-Type: application/json&amp;#10;&amp;#10;{&amp;#10;  &amp;quot;cargo&amp;quot;: &amp;quot;&amp;quot;,&amp;#10;  &amp;quot;permisos&amp;quot;: &amp;quot;&amp;quot;,&amp;#10;  &amp;quot;areaResponsable&amp;quot;: &amp;quot;&amp;quot;,&amp;#10;  &amp;quot;nombres&amp;quot;: &amp;quot;&amp;quot;,&amp;#10;  &amp;quot;apellidos&amp;quot;: &amp;quot;&amp;quot;,&amp;#10;  &amp;quot;documentoIdentidad&amp;quot;: 0,&amp;#10;  &amp;quot;correo&amp;quot;: &amp;quot;&amp;quot;,&amp;#10;  &amp;quot;password&amp;quot;: &amp;quot;&amp;quot;,&amp;#10;  &amp;quot;numeroTele&amp;quot;: &amp;quot;&amp;quot;,&amp;#10;  &amp;quot;tipoDocumento&amp;quot;: &amp;quot;CC&amp;quot;,&amp;#10;  &amp;quot;fechaNacimiento&amp;quot;: &amp;quot;&amp;quot;&amp;#10;}&quot; /&gt;&#10;&lt;/CachedHttpClientTabRequests&gt;" />
+  </component>
+</project>
