@@ -151,7 +151,7 @@ export default function HomeScreen() {
       } as any);
 
       console.log('Enviando imagen al API...');
-      const response = await fetch(`https://fastapi-tppn.onrender.com/predict/${selectedPaciente.documentoIdentidad}`, {
+      const response = await fetch(`https://fastapi-i6sh.onrender.com/predict/${selectedPaciente.documentoIdentidad}`, {
         method: 'POST',
         body: formData,
         headers: {
