@@ -7,7 +7,7 @@ interface LoginResponse {
 
 export const loginUser = async (correo: string, password: string): Promise<LoginResponse> => {
   try {
-    const url = 'https://reconocimiento-estrabismo.onrender.com/auth/login';
+    const url = 'https://reconocimiento-estrabismo-9hi3.onrender.com/auth/login';
     console.log('Intentando conectar a:', url);
     console.log('Datos de inicio de sesión:', { correo });
 
@@ -15,7 +15,7 @@ export const loginUser = async (correo: string, password: string): Promise<Login
     try {
       console.log('Verificando disponibilidad del servidor...');
       const checkResponse = await fetch(
-        'https://reconocimiento-estrabismo.onrender.com/auth', { 
+        'https://reconocimiento-estrabismo-9hi3.onrender.com/auth', { 
         method: 'HEAD',
         headers: {
           'Accept': '*/*',

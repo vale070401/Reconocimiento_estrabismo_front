@@ -37,7 +37,7 @@ export default function HomeScreen() {
       const token = await AsyncStorage.getItem('userToken');
       console.log('Token from storage:', token);
       
-      const url = `https://reconocimiento-estrabismo.onrender.com/api/pacientes/responsable/${userData.id}`;
+      const url = `https://reconocimiento-estrabismo-9hi3.onrender.com/api/pacientes/responsable/${userData.id}`;
       console.log('Fetching URL:', url);
       
       const response = await fetch(url, {

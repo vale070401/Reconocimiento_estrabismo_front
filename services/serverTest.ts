@@ -9,9 +9,9 @@ export const testServerConnection = async (): Promise<AuthResponse> => {
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 5000); // 5 second timeout
     
-    console.log('Probando conexión al servidor:','https://reconocimiento-estrabismo.onrender.com/auth');
+    console.log('Probando conexión al servidor:','https://reconocimiento-estrabismo-9hi3.onrender.com/auth');
     
-    const response = await fetch('https://reconocimiento-estrabismo.onrender.com/auth', {
+    const response = await fetch('https://reconocimiento-estrabismo-9hi3.onrender.com/auth', {
       method: 'GET',
       headers: {
         'Accept': 'application/json',

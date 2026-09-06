@@ -60,7 +60,7 @@ describe('authService', () => {
       
       // Verificar que se llamó con los parámetros correctos
       const loginCall = mockFetch.mock.calls[1];
-      expect(loginCall[0]).toBe('https://reconocimiento-estrabismo.onrender.com/auth/login');
+      expect(loginCall[0]).toBe('https://reconocimiento-estrabismo-9hi3.onrender.com/auth/login');
       expect(loginCall[1]?.method).toBe('POST');
       expect(loginCall[1]?.headers).toMatchObject({
         'Content-Type': 'application/json',

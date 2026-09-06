@@ -1,4 +1,4 @@
-import { registerUser, fetchWithTimeout } from '../userService';
+import { fetchWithTimeout, registerUser } from '../userService';
 
 // Mock global fetch
 const mockFetch = global.fetch as jest.MockedFunction<typeof fetch>;
@@ -281,7 +281,7 @@ describe('userService', () => {
       const registerCall = mockFetch.mock.calls[1];
       const body = JSON.parse(registerCall[1]?.body as string);
       expect(body).toMatchObject(mockUserData);
-      expect(registerCall[0]).toBe('https://reconocimiento-estrabismo.onrender.com/auth/register/responsable');
+      expect(registerCall[0]).toBe('https://reconocimiento-estrabismo-9hi3.onrender.com/auth/register/responsable');
     });
 
     it('debe configurar los headers correctamente', async () => {

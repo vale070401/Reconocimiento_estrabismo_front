@@ -31,7 +31,7 @@ export default function ClinicalHistoryScreen() {
       const token = await AsyncStorage.getItem('userToken');
       
       const response = await fetch(
-        `https://reconocimiento-estrabismo.onrender.com/api/pacientes/responsable/${userData?.id}`,
+        `https://reconocimiento-estrabismo-9hi3.onrender.com/api/pacientes/responsable/${userData?.id}`,
         {
           headers: {
             'Authorization': `Bearer ${token}`,
@@ -58,7 +58,7 @@ export default function ClinicalHistoryScreen() {
     try {
       setLoading(true);
       const token = await AsyncStorage.getItem('userToken');
-      const url = `https://reconocimiento-estrabismo.onrender.com/api/pdf/historia-clinica/${documentoIdentidad}`;
+      const url = `https://reconocimiento-estrabismo-9hi3.onrender.com/api/pdf/historia-clinica/${documentoIdentidad}`;
       
       // Usar el directorio de caché de la aplicación
       const fileUri = `${FileSystemLegacy.cacheDirectory}historia-clinica-${documentoIdentidad}.pdf`;

@@ -62,10 +62,10 @@ export const fetchWithTimeout = async (url: string, options: RequestInit, timeou
 export const registerUser = async (userData: RegisterData): Promise<RegisterResponse> => {
   try {
     console.log('Iniciando registro...');
-    console.log('URL del servidor:', 'https://reconocimiento-estrabismo.onrender.com');
+    console.log('URL del servidor:', 'https://reconocimiento-estrabismo-9hi3.onrender.com');
     console.log('Enviando datos:', userData);
 
-    const response = await fetchWithTimeout('https://reconocimiento-estrabismo.onrender.com/auth/register/responsable', {
+    const response = await fetchWithTimeout('https://reconocimiento-estrabismo-9hi3.onrender.com/auth/register/responsable', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',

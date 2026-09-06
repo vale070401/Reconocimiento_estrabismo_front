@@ -21,7 +21,7 @@ interface PatientResponse {
 
 export const registerPatient = async (patientData: PatientData, token: string): Promise<PatientResponse> => {
   try {
-    const url = 'https://reconocimiento-estrabismo.onrender.com/auth/register/paciente';
+    const url = 'https://reconocimiento-estrabismo-9hi3.onrender.com/auth/register/paciente';
     
     // Preparar los datos según el formato esperado por el endpoint
     const requestData = {

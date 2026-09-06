@@ -1,4 +1,4 @@
-import { registerPatient, PatientData } from '../patientService';
+import { PatientData, registerPatient } from '../patientService';
 import { fetchWithTimeout } from '../userService';
 
 // Mock fetchWithTimeout
@@ -54,7 +54,7 @@ describe('patientService', () => {
       
       // Verificar que se llamó con los parámetros correctos
       const callArgs = mockFetchWithTimeout.mock.calls[0];
-      expect(callArgs[0]).toBe('https://reconocimiento-estrabismo.onrender.com/auth/register/paciente');
+      expect(callArgs[0]).toBe('https://reconocimiento-estrabismo-9hi3.onrender.com/auth/register/paciente');
       expect(callArgs[1]?.method).toBe('POST');
       expect(callArgs[1]?.headers).toMatchObject({
         'Content-Type': 'application/json',

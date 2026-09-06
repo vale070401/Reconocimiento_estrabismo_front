@@ -1,6 +1,6 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
-const API_BASE_URL = "https://reconocimiento-estrabismo.onrender.com";
+const API_BASE_URL = "https://reconocimiento-estrabismo-9hi3.onrender.com";
 
 // Definimos el tipo de userData para Responsable
 export interface UpdateResponsableData {
